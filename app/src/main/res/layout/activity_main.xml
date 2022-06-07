@@ -57,7 +57,9 @@
         android:textStyle="bold"
         android:shadowColor="@color/greyColor"
         />
+
     <TextView
+        android:id="@+id/tvSelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -78,6 +80,7 @@
         tools:ignore="HardcodedText" />
 
     <TextView
+        android:id="@+id/dOBInMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
